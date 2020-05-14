@@ -344,22 +344,18 @@ p{
     }
     .lt{
         height: 100%;
-        font-size: 2rem;
-        width: 98%;
-        margin-right: 1%;
-        margin-left: 1%;
+        font-size: 2vw;
+        width: 100%;
         flex-direction: column;
     }
     .rt{
         height: 100%;
-        width: 98%;
-        margin-right: 1%;
-        margin-left: 1%;
-        font-size: 2rem;
+        width: 100%;
+        font-size: 2vw;
         flex-direction: column;
     }
     p{
-        font-size: 2rem;
+        font-size: 2vw;
         flex-direction: column;
     }
     .nav_list{
@@ -367,10 +363,10 @@ p{
     }
     li{
         margin: 2rem 0;
-        font-size: 2.6rem;
+        font-size: 2.6vw;
     }
     .nav_link{
-        font-size: 2.5rem;
+        font-size: 2.5vw;
     }
     .details .nav{
         flex-direction: initial;
@@ -457,25 +453,21 @@ p{
     }
     .lt{
         height: 100%;
-        font-size: 2rem;
-        width: 98%;
-        margin-right: 1%;
-        margin-left: 1%;
+        font-size: 2vw;
+        width: 100%;
         flex-direction: column;
     }
     .rt{
         height: 100%;
-        width: 98%;
-        margin-right: 1%;
-        margin-left: 1%;
-        font-size: 2rem;
+        width: 100%;
+        font-size: 2vw;
         flex-direction: column;
     }
     .heading h1{
-        font-size: 6rem;
+        font-size: 6vw;
     }
     p{
-        font-size: 3rem;
+        font-size: 3vw;
     }
     .nav_list{
         flex-direction: column;
@@ -519,26 +511,22 @@ p{
         font-size: 1.7rem;
     }
     .heading h1{
-        font-size: 6rem;
+        font-size: 6vw;
     }
     .lt{
         height: 100%;
-        font-size: 2rem;
-        width: 98%;
-        margin-right: 1%;
-        margin-left: 1%;
+        font-size: 2vw;
+        width: 100%;
         flex-direction: column;
     }
     .rt{
         height: 100%;
-        width: 98%;
-        margin-right: 1%;
-        margin-left: 1%;
-        font-size: 2rem;
+        width: 100%;
+        font-size: 2vw;
         flex-direction: column;
     }
     p{
-        font-size: 3rem;
+        font-size: 3vw;
     }
     .nav_list{
         flex-direction: column;
