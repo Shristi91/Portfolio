@@ -344,20 +344,23 @@ p{
     }
     .lt{
         height: 100%;
-        font-size: 3rem;
+        font-size: 2rem;
         width: 98%;
         margin-right: 1%;
         margin-left: 1%;
+        flex-direction: column;
     }
     .rt{
         height: 100%;
         width: 98%;
         margin-right: 1%;
         margin-left: 1%;
-        font-size: 3rem;
+        font-size: 2rem;
+        flex-direction: column;
     }
     p{
-        font-size: 3rem;
+        font-size: 2rem;
+        flex-direction: column;
     }
     .nav_list{
         flex-direction: column;
