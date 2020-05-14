@@ -9,7 +9,7 @@ html{
     color: #000000;
 }
 .wrapper{
-    width: 1260px;
+    width: 100%;
     margin: 0px auto;
 }
 body{
@@ -79,6 +79,7 @@ header{
     height: 100vh;
 }
 .top{
+    left: 0px;
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -339,7 +340,7 @@ p{
     .main h4{
         font-size: 1.7rem;
     }
-    .heading h1{
+    .container .heading h1{
         font-size: 6rem;
     }
     .container{
@@ -398,7 +399,7 @@ p{
   and (-webkit-device-pixel-ratio: 2) {
     .menu_toggler{
         top: 2rem;
-        right: 0.5rem;
+        right: .5rem;
     }
     body{
         background: url("images\ \(6\).jpg") no-repeat fixed center;
