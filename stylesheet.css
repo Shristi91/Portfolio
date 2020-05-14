@@ -25,7 +25,6 @@ a{
 p{
     font-size: 1.8rem;
     font-weight: 300;
-    display: flex;
 }
 img{
     width: 100%;
@@ -300,6 +299,7 @@ p{
 .btn-wrapper p{
     margin-bottom: 10px;
     margin-top: 10px;
+    text-align: center;
 }
 .btn{
     display: inline-block;
@@ -342,7 +342,11 @@ p{
     .heading h1{
         font-size: 6rem;
     }
+    .container{
+        flex-direction: column;
+    }
     .middle{
+        width: 100%;
         display: flex;
         flex-flow: column  wrap;
     }
@@ -360,6 +364,8 @@ p{
     }
     p{
         font-size: 2rem;
+        flex-wrap: wrap;
+        align-content: flex-start;
     }
     .nav_list{
         flex-direction: column;
