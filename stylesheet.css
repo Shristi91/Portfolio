@@ -398,7 +398,7 @@ p{
   and (-webkit-device-pixel-ratio: 2) {
     .menu_toggler{
         top: 2rem;
-        right: 2rem;
+        right: 0.5rem;
     }
     body{
         background: url("images\ \(6\).jpg") no-repeat fixed center;
