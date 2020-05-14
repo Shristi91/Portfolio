@@ -405,6 +405,10 @@ p{
     .main h4{
         font-size: 1.7rem;
     }
+    .middle{
+        display: flex;
+        flex-flow: column  wrap;
+    }
     .lt{
         font-size: 2rem;
         width: 100%;
@@ -462,6 +466,10 @@ p{
     }
     .heading h1{
         font-size: 6rem;
+    }
+    .middle{
+        display: flex;
+        flex-flow: column  wrap;
     }
     .lt{
         font-size: 2rem;
