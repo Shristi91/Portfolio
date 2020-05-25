@@ -171,7 +171,7 @@ li{
 }.main h1{
     font-size: 20rem;
     font-family: 'The Historia Demo', sans-serif;
-    background: linear-gradient(to top,  #FFCC00,   #6600CC);
+    background: linear-gradient(to top, #ffcc00, #6600cc);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -244,7 +244,8 @@ li{
 .blog .list .tec:hover,
 .blog .list .use:hover,
 .blog .list .alert:hover,
-.blog .list .com:hover{
+.blog .list .com:hover,
+.blog .list .sql:hover{
     color:   #993300;
 }
 .experience .heading h1{
@@ -446,7 +447,7 @@ p{
     .details li{
         margin: 0 2rem;
     }
-      .profile_image{
+    .profile_image{
         margin: 0 0 7rem 0;
     }
     form{
@@ -506,6 +507,141 @@ p{
         margin: 0 2rem;
     }
       .profile_image{
+        margin: 0 0 7rem 0;
+    }
+    form{
+        width: 100%;
+    }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .menu_toggler{
+        top: 2rem;
+        right: .5rem;
+    }
+    body{
+        background: url("images\ \(6\).jpg") no-repeat fixed center;
+        background-size: cover;
+    }
+    .main h1{
+        font-size: 8.5rem;
+        padding-top: 200px;
+    }
+    .main h4{
+        font-size: 2rem;
+    }
+    .profile_image{
+        align-items: flex-start;
+    }
+    .middle{
+        display: flex;
+        flex-flow: column  wrap;
+    }
+    .lt{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .rt{
+        width: 100%;
+        font-size: 2rem;
+    }
+    .heading h1{
+        font-size: 5rem;
+    }
+    .experience .heading h1{
+        font-size: 4.5rem;
+    }
+    .education .heading h1{
+        font-size: 4.5rem;
+    }
+    p{
+        font-size: 2.5rem;
+    }
+    .nav_list{
+        flex-direction: column;
+    }
+    li{
+        margin: 2rem 0;
+        font-size: 2.4rem;
+    }
+    .nav_link{
+        font-size: 4.5rem;
+    }
+    .details .nav{
+        flex-direction: initial;
+    }
+    .details li{
+        margin: 0 2rem;
+    }
+    .profile_image{
+        margin: 0 0 7rem 0;
+    }
+    form{
+        width: 100%;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .menu_toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+    .main h1{
+        font-size: 13rem;
+        padding-top: 100px;
+    }
+    .main h4{
+        font-size: 1.7rem;
+    }
+    .container .heading h1{
+        font-size: 6rem;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .middle{
+        width: 100%;
+        display: flex;
+        flex-flow: column  wrap;
+    }
+    .lt{
+        background: url("download.jpg") no-repeat center fixed;
+        background-size: cover;
+        font-size: 2rem;
+        width: 100%;
+    }
+    .rt{
+        background: url("download.jpg") no-repeat center fixed;
+        background-size: cover;
+        width: 100%;
+        font-size: 2rem;
+    }
+    p{
+        font-size: 2rem;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .nav_list{
+        flex-direction: column;
+    }
+    li{
+        margin: 2rem 0;
+        font-size: 2.6rem;
+    }
+    .nav_link{
+        font-size: 2.5rem;
+    }
+    .details .nav{
+        flex-direction: initial;
+    }
+    .details li{
+        margin: 0 2rem;
+    }
+    .profile_image{
         margin: 0 0 7rem 0;
     }
     form{
