@@ -245,7 +245,7 @@ li{
 .blog .list .use:hover,
 .blog .list .alert:hover,
 .blog .list .com:hover,
-.blog .list .sql:hover
+.blog .list .sql:hover,
 .blog .list .change:hover{
     color:   #993300;
 }
