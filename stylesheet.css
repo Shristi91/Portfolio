@@ -246,11 +246,11 @@ li{
 .blog .list .alert:hover,
 .blog .list .com:hover,
 .blog .list .sql:hover,
-.blog .list .change:hover
-.blog .list .limelight:hover
-.blog .list .english:hover
-.blog .list .troll:hover
-.blog .list .read:hover
+.blog .list .change:hover,
+.blog .list .limelight:hover,
+.blog .list .english:hover,
+.blog .list .troll:hover,
+.blog .list .read:hover,
 .blog .list .life:hover{
     color:   #993300;
 }
