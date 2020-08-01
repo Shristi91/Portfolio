@@ -246,7 +246,12 @@ li{
 .blog .list .alert:hover,
 .blog .list .com:hover,
 .blog .list .sql:hover,
-.blog .list .change:hover{
+.blog .list .change:hover
+.blog .list .limelight:hover
+.blog .list .english:hover
+.blog .list .troll:hover
+.blog .list .read:hover
+.blog .list .life:hover{
     color:   #993300;
 }
 .experience .heading h1{
@@ -587,6 +592,73 @@ p{
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+    .menu_toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+    .main h1{
+        font-size: 13rem;
+        padding-top: 100px;
+    }
+    .main h4{
+        font-size: 1.7rem;
+    }
+    .container .heading h1{
+        font-size: 6rem;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .middle{
+        width: 100%;
+        display: flex;
+        flex-flow: column  wrap;
+    }
+    .lt{
+        background: url("download.jpg") no-repeat center fixed;
+        background-size: cover;
+        font-size: 2rem;
+        width: 100%;
+    }
+    .rt{
+        background: url("download.jpg") no-repeat center fixed;
+        background-size: cover;
+        width: 100%;
+        font-size: 2rem;
+    }
+    p{
+        font-size: 2rem;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .nav_list{
+        flex-direction: column;
+    }
+    li{
+        margin: 2rem 0;
+        font-size: 2.6rem;
+    }
+    .nav_link{
+        font-size: 2.5rem;
+    }
+    .details .nav{
+        flex-direction: initial;
+    }
+    .details li{
+        margin: 0 2rem;
+    }
+    .profile_image{
+        margin: 0 0 7rem 0;
+    }
+    form{
+        width: 100%;
+    }
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
     .menu_toggler{
         top: 2rem;
         right: 2rem;
